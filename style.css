@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Afacad", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Certifique-se de que ocupa a largura total */
+}
+
+#tabelasContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#tabelaComparativa,
+#tabelaCota {
+    width: 48%;
+}
+
+.header-table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #0174d2;
+    border-collapse: collapse;
+    /* Add this line to collapse borders */
+    border: none;
+}
+
+.header-table img {
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+}
+
+.header-table td {
+    text-align: initial;
+    vertical-align: middle;
+    /* Isso ajuda a centralizar verticalmente o conteúdo dentro da célula */
+}
+
+
+#checkboxContainer {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* Adiciona espaçamento na parte inferior do contêiner de checkboxes */
+}
+
+#checkboxContainer label {
+    /* display: block; */
+    margin-left: 10px;
+    /* Adiciona espaçamento na parte inferior de cada checkbox */
+}
+
+#cotaForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0174d2;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+button:hover {
+    background-color: #0174d27c;
+    transform: scale(1.03);
+}
+
+/* Add styles for images in the table */
+#tabelaCota img {
+    max-width: 20px;
+    height: auto;
+}
+
+/* Set background color of tabelaBeneficios and tabelaCota to white */
+#tabelaBeneficios,
+#tabelaCota {
+    background-color: white;
+}
+
+.wrapper {
+    color: #0174d2;
+    font-family: 'Gordita', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    font-style: italic;
+    font-size: x-small;
+}
+
