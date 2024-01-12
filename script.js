@@ -2,7 +2,7 @@ function gerarTabela() {
     var selectedCotas = document.querySelectorAll("input[name='cota']:checked");
 
     // Tabela de Benefícios
-    var tabelaBeneficios = "<table><tr><th>Benefícios</th></tr>";
+    var tabelaBeneficios;
 
     var beneficios = [
         "Prioridade no licenciamento da PI com compensação financeira",
@@ -32,7 +32,7 @@ function gerarTabela() {
     tabelaBeneficios += "</table>";
 
     // Tabela da Cota
-    var tabelaCota = "<table><tr><th>Benefícios</th>";
+    var tabelaCota = "<table><tr><th>BENEFÍCIOS</th>";
 
     for (var i = 0; i < selectedCotas.length; i++) {
         tabelaCota += "<th>" + selectedCotas[i].value + "</th>";

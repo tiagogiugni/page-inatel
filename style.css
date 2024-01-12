@@ -11,15 +11,12 @@ body {
     background-color: #f4f4f4;
     color: #333;
     margin: 20px;
-    border-collapse: collapse;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 table {
     width: 100%;
-    text-align: center;
     color: rgb(0, 0, 0);
 }
 
@@ -27,7 +24,7 @@ th,
 td {
     border: 1px solid #ddd;
     padding: 12px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
@@ -37,8 +34,8 @@ th {
 
 .table-container {
     display: flex;
-    justify-content: space-around;
-    width: 100%; /* Certifique-se de que ocupa a largura total */
+    justify-content: center;
+    width: 100%;
 }
 
 #tabelasContainer {
@@ -47,17 +44,11 @@ th {
     justify-content: center;
 }
 
-#tabelaComparativa,
-#tabelaCota {
-    width: 48%;
-}
-
 .header-table {
     width: 100%;
     margin-bottom: 20px;
     background-color: #0174d2;
     border-collapse: collapse;
-    /* Add this line to collapse borders */
     border: none;
 }
 
@@ -70,20 +61,15 @@ th {
 .header-table td {
     text-align: initial;
     vertical-align: middle;
-    /* Isso ajuda a centralizar verticalmente o conteúdo dentro da célula */
 }
-
 
 #checkboxContainer {
     margin-top: 5px;
     margin-bottom: 20px;
-    /* Adiciona espaçamento na parte inferior do contêiner de checkboxes */
 }
 
 #checkboxContainer label {
-    /* display: block; */
     margin-left: 10px;
-    /* Adiciona espaçamento na parte inferior de cada checkbox */
 }
 
 #cotaForm {
@@ -139,4 +125,3 @@ button:hover {
     font-style: italic;
     font-size: x-small;
 }
-
